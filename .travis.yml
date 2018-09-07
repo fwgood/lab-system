@@ -5,6 +5,5 @@ install:
   - cd front
   - npm install
 script:
-  - cd front
   - npm run build
   - mv dist ../docs
