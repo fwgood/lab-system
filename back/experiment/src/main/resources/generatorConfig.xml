@@ -26,7 +26,7 @@
 
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.99.100:3306/labsysytem"
+                        connectionURL="jdbc:mysql://192.168.99.100:3306/labsystem"
                         userId="root"
                         password="123456">
         </jdbcConnection>
@@ -35,7 +35,7 @@
         <sqlMapGenerator targetPackage="com.chrome.infra.mapper" targetProject="src/main/resources"/>
         <javaClientGenerator targetPackage="com.chrome.infra.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
-        <table tableName="address">
+        <table tableName="user">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" />
             <!--oracle 配置-->
