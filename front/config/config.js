@@ -42,6 +42,7 @@ export default {
   routes: pageRoutes,
   // Theme for antd
   // https://ant.design/docs/react/customize-theme-cn
+  history: 'hash', // 默认是 browser
   theme: {
     'primary-color': defaultSettings.primaryColor,
   },
