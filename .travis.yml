@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - "node"
 install:
-  - cd front && npm install
+  - cd front
+  - npm install
 script:
   - cd front
   - npm run build
