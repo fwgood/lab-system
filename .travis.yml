@@ -1,11 +1,12 @@
 language: node_js
 node_js:
   - "node"
+cache: yarn
 install:
   - cd front
-  - npm install
+  - yarn install
 script:
-  - npm run build
+  - yarn  build
 after_script:
   - git config --global user.email "fwgood@qq.com"
   - git config --global user.name "fwgood"
