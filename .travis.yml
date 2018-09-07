@@ -17,3 +17,6 @@ after_script:
   - git add .
   - git commit -m 'Travis upate blog'
   - git push -u origin master
+branches:
+  only:
+    - master
