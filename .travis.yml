@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - cd front && npm install
+script:
+  - cd front
+  - npm run build
+  - mv dist ../docs
