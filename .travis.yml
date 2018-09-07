@@ -19,4 +19,4 @@ after_script:
   - git push -u origin master
 branches:
   only:
-    - master
+    - dev
